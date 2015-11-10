@@ -105,6 +105,7 @@
 		38CBDDC41BEB4755008D5ADC /* TuWanModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 38CBDDAC1BEB4755008D5ADC /* TuWanModel.m */; };
 		38CBDDC51BEB4755008D5ADC /* AlbumModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 38CBDDAF1BEB4755008D5ADC /* AlbumModel.m */; };
 		38CBDDC61BEB4755008D5ADC /* RankingListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 38CBDDB11BEB4755008D5ADC /* RankingListModel.m */; };
+		38DC081E1BF194820077E792 /* MusicDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 38DC081D1BF194820077E792 /* MusicDetailCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -283,6 +284,8 @@
 		38CBDDB01BEB4755008D5ADC /* RankingListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RankingListModel.h; sourceTree = "<group>"; };
 		38CBDDB11BEB4755008D5ADC /* RankingListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RankingListModel.m; sourceTree = "<group>"; };
 		38CBDDB21BEB4755008D5ADC /* XiMaLaYaModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XiMaLaYaModel.h; sourceTree = "<group>"; };
+		38DC081C1BF194820077E792 /* MusicDetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicDetailCell.h; sourceTree = "<group>"; };
+		38DC081D1BF194820077E792 /* MusicDetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicDetailCell.m; sourceTree = "<group>"; };
 		4329DABFE5AD654FE71597C9 /* Pods-BaseProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BaseProject/Pods-BaseProject.debug.xcconfig"; sourceTree = "<group>"; };
 		5EAAD623A23724C816F8DC02 /* libPods-BaseProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BaseProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD4F0750B5DAAA87BA236B31 /* Pods-BaseProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-BaseProject/Pods-BaseProject.release.xcconfig"; sourceTree = "<group>"; };
@@ -670,6 +673,8 @@
 				382020141BEC415C0003DB02 /* TuWanImageCell.m */,
 				382391631BF0496200F2F52F /* XiMaCategoryCell.h */,
 				382391641BF0496200F2F52F /* XiMaCategoryCell.m */,
+				38DC081C1BF194820077E792 /* MusicDetailCell.h */,
+				38DC081D1BF194820077E792 /* MusicDetailCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -946,6 +951,7 @@
 				3804CE541BD758F10046C8C8 /* NSString+QRCode.m in Sources */,
 				38CBDDB41BEB4755008D5ADC /* BestGroupModel.m in Sources */,
 				382A8FEF1BEB06EB00A1874C /* MyInfoViewController.m in Sources */,
+				38DC081E1BF194820077E792 /* MusicDetailCell.m in Sources */,
 				38CBDDBE1BEB4755008D5ADC /* ItemDetailModel.m in Sources */,
 				3885C8FA1BE8E96A009441EA /* PSCollectionViewCell.m in Sources */,
 				382A8FF21BEB071500A1874C /* RankListViewController.m in Sources */,
