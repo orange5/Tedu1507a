@@ -106,6 +106,8 @@
 		38CBDDC51BEB4755008D5ADC /* AlbumModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 38CBDDAF1BEB4755008D5ADC /* AlbumModel.m */; };
 		38CBDDC61BEB4755008D5ADC /* RankingListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 38CBDDB11BEB4755008D5ADC /* RankingListModel.m */; };
 		38DC081E1BF194820077E792 /* MusicDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 38DC081D1BF194820077E792 /* MusicDetailCell.m */; };
+		38DC08221BF1C0820077E792 /* XiMaAlbumViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 38DC08211BF1C0820077E792 /* XiMaAlbumViewModel.m */; };
+		38DC08251BF1CB880077E792 /* MusicListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38DC08241BF1CB880077E792 /* MusicListViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -286,6 +288,10 @@
 		38CBDDB21BEB4755008D5ADC /* XiMaLaYaModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XiMaLaYaModel.h; sourceTree = "<group>"; };
 		38DC081C1BF194820077E792 /* MusicDetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicDetailCell.h; sourceTree = "<group>"; };
 		38DC081D1BF194820077E792 /* MusicDetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicDetailCell.m; sourceTree = "<group>"; };
+		38DC08201BF1C0820077E792 /* XiMaAlbumViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XiMaAlbumViewModel.h; sourceTree = "<group>"; };
+		38DC08211BF1C0820077E792 /* XiMaAlbumViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XiMaAlbumViewModel.m; sourceTree = "<group>"; };
+		38DC08231BF1CB880077E792 /* MusicListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicListViewController.h; sourceTree = "<group>"; };
+		38DC08241BF1CB880077E792 /* MusicListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicListViewController.m; sourceTree = "<group>"; };
 		4329DABFE5AD654FE71597C9 /* Pods-BaseProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BaseProject/Pods-BaseProject.debug.xcconfig"; sourceTree = "<group>"; };
 		5EAAD623A23724C816F8DC02 /* libPods-BaseProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BaseProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD4F0750B5DAAA87BA236B31 /* Pods-BaseProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-BaseProject/Pods-BaseProject.release.xcconfig"; sourceTree = "<group>"; };
@@ -371,6 +377,8 @@
 			children = (
 				382A8FF01BEB071500A1874C /* RankListViewController.h */,
 				382A8FF11BEB071500A1874C /* RankListViewController.m */,
+				38DC08231BF1CB880077E792 /* MusicListViewController.h */,
+				38DC08241BF1CB880077E792 /* MusicListViewController.m */,
 			);
 			path = "喜马拉雅";
 			sourceTree = "<group>";
@@ -405,6 +413,8 @@
 			children = (
 				382391661BF0726B00F2F52F /* XiMaCategoryViewModel.h */,
 				382391671BF0726B00F2F52F /* XiMaCategoryViewModel.m */,
+				38DC08201BF1C0820077E792 /* XiMaAlbumViewModel.h */,
+				38DC08211BF1C0820077E792 /* XiMaAlbumViewModel.m */,
 			);
 			path = "喜马拉雅";
 			sourceTree = "<group>";
@@ -992,10 +1002,12 @@
 				3885C8FB1BE8E96A009441EA /* README.md in Sources */,
 				38CBDDC11BEB4755008D5ADC /* ToolMenuModel.m in Sources */,
 				38BEAC221BEC95B800D567D7 /* TuWanHtmlViewController.m in Sources */,
+				38DC08251BF1CB880077E792 /* MusicListViewController.m in Sources */,
 				38CBDDB61BEB4755008D5ADC /* GiftModel.m in Sources */,
 				3886C0C11BD74B090014E661 /* BaseModel.m in Sources */,
 				382A8FEC1BEB06C700A1874C /* TuWanViewController.m in Sources */,
 				3886C0981BD748830014E661 /* main.m in Sources */,
+				38DC08221BF1C0820077E792 /* XiMaAlbumViewModel.m in Sources */,
 				3804CE521BD758F10046C8C8 /* NSObject+Common.m in Sources */,
 				38CBDDBB1BEB4755008D5ADC /* HeroSkinModel.m in Sources */,
 				38CBDDB51BEB4755008D5ADC /* FreeHeroModel.m in Sources */,
