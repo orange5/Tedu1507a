@@ -59,9 +59,9 @@
 - (NSString *)timeForRow:(NSInteger)row{
 //    1447088462000 创建时间,距离1970年的秒数
 //获取当前秒数
-    NSTimeInterval currentTime= [NSDate timeIntervalSinceReferenceDate];
+    NSTimeInterval currentTime= [[NSDate date] timeIntervalSince1970];
 //算出当前时间和创建时间的间隔秒数
-    NSTimeInterval delta = currentTime-[self modelForRow:row].createdAt;
+    NSTimeInterval delta = currentTime-[self modelForRow:row].createdAt/1000;
 //秒数转小时
     NSInteger hours = delta/3600;
     if (hours < 24) {
@@ -77,7 +77,13 @@
 }
 /** 获取某行播放数 */
 - (NSString *)playCountForRow:(NSInteger)row{
-    return @([self modelForRow:row].playtimes).stringValue;
+//如果超过万，要显示*.*万
+    NSInteger count = [self modelForRow:row].playtimes;
+    if (count < 10000) {
+        return @([self modelForRow:row].playtimes).stringValue;
+    }else{
+        return [NSString stringWithFormat:@"%.1f万", count/10000.0];
+    }
 }
 /** 获取某行喜欢数 */
 - (NSString *)favorCountForRow:(NSInteger)row{

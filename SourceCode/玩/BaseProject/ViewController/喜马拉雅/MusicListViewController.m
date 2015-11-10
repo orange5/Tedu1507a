@@ -9,6 +9,7 @@
 #import "MusicListViewController.h"
 #import "XiMaAlbumViewModel.h"
 #import "MusicDetailCell.h"
+#import "PlayView.h"
 
 @interface MusicListViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property(nonatomic,strong) XiMaAlbumViewModel *albumVM;
@@ -76,6 +77,13 @@
     // Do any additional setup after loading the view.
     [Factory addBackItemToVC:self];
     [self.tableView.header beginRefreshing];
+//添加播放控制视图
+    [self.view addSubview:[PlayView sharedInstance]];
+    [[PlayView sharedInstance] mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.centerX.mas_equalTo(0);
+        make.bottom.mas_equalTo(0);
+        make.size.mas_equalTo(CGSizeMake(80, 80));
+    }];
 }
 #pragma mark - UITableView
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
@@ -94,8 +102,9 @@
     return cell;
 }
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    [[PlayView sharedInstance] playWithURL:[self.albumVM musicURLForRow:indexPath.row]];
 }
+//允许自动布局
 - (CGFloat)tableView:(UITableView *)tableView estimatedHeightForRowAtIndexPath:(NSIndexPath *)indexPath{
     return UITableViewAutomaticDimension;
 }

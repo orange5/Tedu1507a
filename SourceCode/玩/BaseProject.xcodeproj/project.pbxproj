@@ -108,6 +108,8 @@
 		38DC081E1BF194820077E792 /* MusicDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 38DC081D1BF194820077E792 /* MusicDetailCell.m */; };
 		38DC08221BF1C0820077E792 /* XiMaAlbumViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 38DC08211BF1C0820077E792 /* XiMaAlbumViewModel.m */; };
 		38DC08251BF1CB880077E792 /* MusicListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38DC08241BF1CB880077E792 /* MusicListViewController.m */; };
+		38DC08271BF1DF0D0077E792 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38DC08261BF1DF0D0077E792 /* AVFoundation.framework */; };
+		38DC082A1BF1DF4D0077E792 /* PlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38DC08291BF1DF4D0077E792 /* PlayView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -292,6 +294,9 @@
 		38DC08211BF1C0820077E792 /* XiMaAlbumViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XiMaAlbumViewModel.m; sourceTree = "<group>"; };
 		38DC08231BF1CB880077E792 /* MusicListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicListViewController.h; sourceTree = "<group>"; };
 		38DC08241BF1CB880077E792 /* MusicListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicListViewController.m; sourceTree = "<group>"; };
+		38DC08261BF1DF0D0077E792 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		38DC08281BF1DF4D0077E792 /* PlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayView.h; sourceTree = "<group>"; };
+		38DC08291BF1DF4D0077E792 /* PlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayView.m; sourceTree = "<group>"; };
 		4329DABFE5AD654FE71597C9 /* Pods-BaseProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BaseProject/Pods-BaseProject.debug.xcconfig"; sourceTree = "<group>"; };
 		5EAAD623A23724C816F8DC02 /* libPods-BaseProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BaseProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD4F0750B5DAAA87BA236B31 /* Pods-BaseProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-BaseProject/Pods-BaseProject.release.xcconfig"; sourceTree = "<group>"; };
@@ -302,6 +307,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38DC08271BF1DF0D0077E792 /* AVFoundation.framework in Frameworks */,
 				3885C90B1BE8EA70009441EA /* libz.tbd in Frameworks */,
 				3885C9091BE8EA6A009441EA /* libstdc++.tbd in Frameworks */,
 				3885C9071BE8EA62009441EA /* CoreTelephony.framework in Frameworks */,
@@ -685,6 +691,8 @@
 				382391641BF0496200F2F52F /* XiMaCategoryCell.m */,
 				38DC081C1BF194820077E792 /* MusicDetailCell.h */,
 				38DC081D1BF194820077E792 /* MusicDetailCell.m */,
+				38DC08281BF1DF4D0077E792 /* PlayView.h */,
+				38DC08291BF1DF4D0077E792 /* PlayView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -794,6 +802,7 @@
 		FA3445AEA3874C1D4FE61EAF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				38DC08261BF1DF0D0077E792 /* AVFoundation.framework */,
 				3885C90A1BE8EA70009441EA /* libz.tbd */,
 				3885C9081BE8EA6A009441EA /* libstdc++.tbd */,
 				3885C9061BE8EA62009441EA /* CoreTelephony.framework */,
@@ -971,6 +980,7 @@
 				3820200F1BEC36710003DB02 /* TuWanListViewController.m in Sources */,
 				38CBDD851BEB474C008D5ADC /* XiMaNetManager.m in Sources */,
 				3885C8F91BE8E96A009441EA /* PSCollectionView.m in Sources */,
+				38DC082A1BF1DF4D0077E792 /* PlayView.m in Sources */,
 				38CBDDC31BEB4755008D5ADC /* ZBItemModel.m in Sources */,
 				38CBDDBC1BEB4755008D5ADC /* HeroVideoModel.m in Sources */,
 				38CBDDC01BEB4755008D5ADC /* SumAbilityModel.m in Sources */,

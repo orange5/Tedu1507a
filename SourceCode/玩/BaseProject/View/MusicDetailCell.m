@@ -48,12 +48,12 @@
     if(_timeLb == nil) {
         _timeLb = [[UILabel alloc] init];
         [self.contentView addSubview:_timeLb];
-        _timeLb.font=[UIFont systemFontOfSize:14];
+        _timeLb.font=[UIFont systemFontOfSize:12];
         _timeLb.textColor=[UIColor lightGrayColor];
         [_timeLb mas_makeConstraints:^(MASConstraintMaker *make) {
             make.top.mas_equalTo(10);
             make.right.mas_equalTo(-10);
-            make.width.mas_equalTo(45);
+            make.width.mas_equalTo(50);
         }];
         _timeLb.textAlignment=NSTextAlignmentRight;
     }
@@ -79,12 +79,12 @@
     if(_playCountLb == nil) {
         _playCountLb = [[UILabel alloc] init];
         [self.contentView addSubview:_playCountLb];
-        UIImageView *imageView=[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"TodayPlayImage"]];
+        UIImageView *imageView=[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"sound_play"]];
         [self.contentView addSubview:imageView];
         [imageView mas_makeConstraints:^(MASConstraintMaker *make) {
-            make.size.mas_equalTo(CGSizeMake(35/2, 42/2));
+            make.size.mas_equalTo(CGSizeMake(20, 20));
             make.leftMargin.mas_equalTo(self.sourceLb.mas_leftMargin);
-            make.bottom.mas_equalTo(10);
+            make.bottom.mas_equalTo(-10);
             make.top.mas_equalTo(self.sourceLb.mas_bottom).mas_equalTo(8);
         }];
         [_playCountLb mas_makeConstraints:^(MASConstraintMaker *make) {
@@ -169,20 +169,23 @@
         } forControlEvents:UIControlEventTouchUpInside];
         [self.contentView addSubview:_downloadBtn];
         [_downloadBtn mas_makeConstraints:^(MASConstraintMaker *make) {
-            make.bottom.right.mas_equalTo(-10);
-            make.size.mas_equalTo(CGSizeMake(45, 45));
+            make.bottom.right.mas_equalTo(-5);
+            make.size.mas_equalTo(CGSizeMake(30, 30));
         }];
     }
     return _downloadBtn;
 }
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier{
     if (self=[super initWithStyle:style reuseIdentifier:reuseIdentifier]) {
+//为了触发下载按钮的懒加载
+        self.downloadBtn.hidden = NO;
+        
 //设置cell被选中后的背景色
         UIView *view=[UIView new];
         view.backgroundColor=kRGBColor(243, 255, 254);
         self.selectedBackgroundView=view;
 //分割线距离左侧空间        
-        self.separatorInset=UIEdgeInsetsMake(0, 100, 0, 0);
+        self.separatorInset=UIEdgeInsetsMake(0, 76, 0, 0);
     }
     return self;
 }
