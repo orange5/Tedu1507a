@@ -26,6 +26,9 @@
 		3844171A1BEF6076004D486F /* TuWanPicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 384417191BEF6076004D486F /* TuWanPicModel.m */; };
 		384417201BF0299C004D486F /* TuWanPicViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3844171F1BF0299C004D486F /* TuWanPicViewModel.m */; };
 		384417231BF02EA1004D486F /* TuWanPicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 384417221BF02EA1004D486F /* TuWanPicViewController.m */; };
+		3848D0891BF2CE010074ADED /* HeroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3848D0881BF2CE010074ADED /* HeroViewController.m */; };
+		3848D08C1BF2CE220074ADED /* BaiKeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3848D08B1BF2CE220074ADED /* BaiKeViewController.m */; };
+		3848D08F1BF2CE4E0074ADED /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3848D08E1BF2CE4E0074ADED /* SearchViewController.m */; };
 		3879FE811BDFA8E100A99990 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3879FE801BDFA8E100A99990 /* libsqlite3.0.tbd */; };
 		3885C8981BE8E88D009441EA /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3885C8971BE8E88D009441EA /* iCarousel.m */; };
 		3885C89D1BE8E8E8009441EA /* libMobClickLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3885C89A1BE8E8E8009441EA /* libMobClickLibrary.a */; };
@@ -149,6 +152,12 @@
 		3844171F1BF0299C004D486F /* TuWanPicViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuWanPicViewModel.m; sourceTree = "<group>"; };
 		384417211BF02EA1004D486F /* TuWanPicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuWanPicViewController.h; sourceTree = "<group>"; };
 		384417221BF02EA1004D486F /* TuWanPicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuWanPicViewController.m; sourceTree = "<group>"; };
+		3848D0871BF2CE010074ADED /* HeroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeroViewController.h; sourceTree = "<group>"; };
+		3848D0881BF2CE010074ADED /* HeroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeroViewController.m; sourceTree = "<group>"; };
+		3848D08A1BF2CE220074ADED /* BaiKeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaiKeViewController.h; sourceTree = "<group>"; };
+		3848D08B1BF2CE220074ADED /* BaiKeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaiKeViewController.m; sourceTree = "<group>"; };
+		3848D08D1BF2CE4E0074ADED /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		3848D08E1BF2CE4E0074ADED /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
 		3879FE801BDFA8E100A99990 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		3879FE9D1BDFDD2400A99990 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
 		3885C8961BE8E88D009441EA /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
@@ -350,6 +359,12 @@
 			children = (
 				382A8FE71BEB066300A1874C /* DuoWanTabBarController.h */,
 				382A8FE81BEB066300A1874C /* DuoWanTabBarController.m */,
+				3848D0871BF2CE010074ADED /* HeroViewController.h */,
+				3848D0881BF2CE010074ADED /* HeroViewController.m */,
+				3848D08A1BF2CE220074ADED /* BaiKeViewController.h */,
+				3848D08B1BF2CE220074ADED /* BaiKeViewController.m */,
+				3848D08D1BF2CE4E0074ADED /* SearchViewController.h */,
+				3848D08E1BF2CE4E0074ADED /* SearchViewController.m */,
 			);
 			path = "多玩盒子";
 			sourceTree = "<group>";
@@ -974,6 +989,7 @@
 				38CBDDBE1BEB4755008D5ADC /* ItemDetailModel.m in Sources */,
 				3885C8FA1BE8E96A009441EA /* PSCollectionViewCell.m in Sources */,
 				382A8FF21BEB071500A1874C /* RankListViewController.m in Sources */,
+				3848D08F1BF2CE4E0074ADED /* SearchViewController.m in Sources */,
 				3844171A1BEF6076004D486F /* TuWanPicModel.m in Sources */,
 				38CBDDB91BEB4755008D5ADC /* HeroDetailModel.m in Sources */,
 				3804CE531BD758F10046C8C8 /* NSString+PJR.m in Sources */,
@@ -983,6 +999,8 @@
 				38DC082A1BF1DF4D0077E792 /* PlayView.m in Sources */,
 				38CBDDC31BEB4755008D5ADC /* ZBItemModel.m in Sources */,
 				38CBDDBC1BEB4755008D5ADC /* HeroVideoModel.m in Sources */,
+				3848D08C1BF2CE220074ADED /* BaiKeViewController.m in Sources */,
+				3848D0891BF2CE010074ADED /* HeroViewController.m in Sources */,
 				38CBDDC01BEB4755008D5ADC /* SumAbilityModel.m in Sources */,
 				38CBDDBF1BEB4755008D5ADC /* RuneModel.m in Sources */,
 				38CBDDB71BEB4755008D5ADC /* HeroChangeModel.m in Sources */,
