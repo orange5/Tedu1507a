@@ -8,11 +8,26 @@
 
 #import "BaiKeViewController.h"
 
+/** 创建自定义cell、图+题目 BaiKeCell*/
+
+
+
+/** 引入tableView的协议 */
 @interface BaiKeViewController ()
+/** viewmodel */
+
+/** table */
 
 @end
-
 @implementation BaiKeViewController
+/** 实现viewmodel懒加载 */
+
+/** 实现tableView懒加载：设置代理、去掉多余cell、头部刷新、
+ 注册cell*/
+
+/** 实现tableView的协议、去分割线、去选择效果 */
+
+
 - (id)init{
     if (self=[super init]) {
         self.title=@"游戏百科";

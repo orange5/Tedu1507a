@@ -30,6 +30,7 @@
 		3848D08C1BF2CE220074ADED /* BaiKeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3848D08B1BF2CE220074ADED /* BaiKeViewController.m */; };
 		3848D08F1BF2CE4E0074ADED /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3848D08E1BF2CE4E0074ADED /* SearchViewController.m */; };
 		3848D0921BF2D8D80074ADED /* SearchDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3848D0911BF2D8D80074ADED /* SearchDetailViewController.m */; };
+		3848D0951BF2E6B80074ADED /* ToolMenuViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3848D0941BF2E6B80074ADED /* ToolMenuViewModel.m */; };
 		3879FE811BDFA8E100A99990 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3879FE801BDFA8E100A99990 /* libsqlite3.0.tbd */; };
 		3885C8981BE8E88D009441EA /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3885C8971BE8E88D009441EA /* iCarousel.m */; };
 		3885C89D1BE8E8E8009441EA /* libMobClickLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3885C89A1BE8E8E8009441EA /* libMobClickLibrary.a */; };
@@ -161,6 +162,8 @@
 		3848D08E1BF2CE4E0074ADED /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
 		3848D0901BF2D8D80074ADED /* SearchDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchDetailViewController.h; sourceTree = "<group>"; };
 		3848D0911BF2D8D80074ADED /* SearchDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchDetailViewController.m; sourceTree = "<group>"; };
+		3848D0931BF2E6B80074ADED /* ToolMenuViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToolMenuViewModel.h; sourceTree = "<group>"; };
+		3848D0941BF2E6B80074ADED /* ToolMenuViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToolMenuViewModel.m; sourceTree = "<group>"; };
 		3879FE801BDFA8E100A99990 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		3879FE9D1BDFDD2400A99990 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
 		3885C8961BE8E88D009441EA /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
@@ -412,6 +415,8 @@
 		382A8FE31BEB05AD00A1874C /* 多玩盒子 */ = {
 			isa = PBXGroup;
 			children = (
+				3848D0931BF2E6B80074ADED /* ToolMenuViewModel.h */,
+				3848D0941BF2E6B80074ADED /* ToolMenuViewModel.m */,
 			);
 			path = "多玩盒子";
 			sourceTree = "<group>";
@@ -1012,6 +1017,7 @@
 				38CBDDB71BEB4755008D5ADC /* HeroChangeModel.m in Sources */,
 				3886C09B1BD748830014E661 /* AppDelegate.m in Sources */,
 				384417201BF0299C004D486F /* TuWanPicViewModel.m in Sources */,
+				3848D0951BF2E6B80074ADED /* ToolMenuViewModel.m in Sources */,
 				3885C8981BE8E88D009441EA /* iCarousel.m in Sources */,
 				38CBDDC21BEB4755008D5ADC /* ZBCategoryModel.m in Sources */,
 				384417171BEF5EE8004D486F /* TuWanVideoModel.m in Sources */,
