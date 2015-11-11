@@ -115,6 +115,8 @@
 		38DC08251BF1CB880077E792 /* MusicListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38DC08241BF1CB880077E792 /* MusicListViewController.m */; };
 		38DC08271BF1DF0D0077E792 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38DC08261BF1DF0D0077E792 /* AVFoundation.framework */; };
 		38DC082A1BF1DF4D0077E792 /* PlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38DC08291BF1DF4D0077E792 /* PlayView.m */; };
+		38F2196A1BF3165400F11009 /* BestGroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F219691BF3165400F11009 /* BestGroupViewController.m */; };
+		38F2196D1BF318E300F11009 /* BestGroupDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F2196C1BF318E300F11009 /* BestGroupDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -312,6 +314,10 @@
 		38DC08261BF1DF0D0077E792 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		38DC08281BF1DF4D0077E792 /* PlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayView.h; sourceTree = "<group>"; };
 		38DC08291BF1DF4D0077E792 /* PlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayView.m; sourceTree = "<group>"; };
+		38F219681BF3165400F11009 /* BestGroupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BestGroupViewController.h; sourceTree = "<group>"; };
+		38F219691BF3165400F11009 /* BestGroupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BestGroupViewController.m; sourceTree = "<group>"; };
+		38F2196B1BF318E300F11009 /* BestGroupDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BestGroupDetailViewController.h; sourceTree = "<group>"; };
+		38F2196C1BF318E300F11009 /* BestGroupDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BestGroupDetailViewController.m; sourceTree = "<group>"; };
 		4329DABFE5AD654FE71597C9 /* Pods-BaseProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BaseProject/Pods-BaseProject.debug.xcconfig"; sourceTree = "<group>"; };
 		5EAAD623A23724C816F8DC02 /* libPods-BaseProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BaseProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD4F0750B5DAAA87BA236B31 /* Pods-BaseProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-BaseProject/Pods-BaseProject.release.xcconfig"; sourceTree = "<group>"; };
@@ -373,6 +379,10 @@
 				3848D08E1BF2CE4E0074ADED /* SearchViewController.m */,
 				3848D0901BF2D8D80074ADED /* SearchDetailViewController.h */,
 				3848D0911BF2D8D80074ADED /* SearchDetailViewController.m */,
+				38F219681BF3165400F11009 /* BestGroupViewController.h */,
+				38F219691BF3165400F11009 /* BestGroupViewController.m */,
+				38F2196B1BF318E300F11009 /* BestGroupDetailViewController.h */,
+				38F2196C1BF318E300F11009 /* BestGroupDetailViewController.m */,
 			);
 			path = "多玩盒子";
 			sourceTree = "<group>";
@@ -1003,6 +1013,7 @@
 				3848D08F1BF2CE4E0074ADED /* SearchViewController.m in Sources */,
 				3844171A1BEF6076004D486F /* TuWanPicModel.m in Sources */,
 				38CBDDB91BEB4755008D5ADC /* HeroDetailModel.m in Sources */,
+				38F2196A1BF3165400F11009 /* BestGroupViewController.m in Sources */,
 				3804CE531BD758F10046C8C8 /* NSString+PJR.m in Sources */,
 				3820200F1BEC36710003DB02 /* TuWanListViewController.m in Sources */,
 				38CBDD851BEB474C008D5ADC /* XiMaNetManager.m in Sources */,
@@ -1036,6 +1047,7 @@
 				38CBDDC41BEB4755008D5ADC /* TuWanModel.m in Sources */,
 				38CBDDB81BEB4755008D5ADC /* HeroCZModel.m in Sources */,
 				38CBDDB31BEB4755008D5ADC /* AllHeroModel.m in Sources */,
+				38F2196D1BF318E300F11009 /* BestGroupDetailViewController.m in Sources */,
 				38BEAC1F1BEC8E2200D567D7 /* TRImageView.m in Sources */,
 				382A8FE91BEB066300A1874C /* DuoWanTabBarController.m in Sources */,
 				382391651BF0496200F2F52F /* XiMaCategoryCell.m in Sources */,
