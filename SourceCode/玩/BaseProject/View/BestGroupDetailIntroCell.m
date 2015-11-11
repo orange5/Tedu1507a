@@ -92,9 +92,7 @@
 - (UILabel *)descLb {
     if(_descLb == nil) {
         _descLb = [[UILabel alloc] init];
-        _descLb.textColor=[UIColor lightGrayColor];
-        _descLb.numberOfLines = 2;
-        _descLb.font=[UIFont systemFontOfSize:14];
+        _descLb.font=[UIFont systemFontOfSize:16];
         [self.contentView addSubview:_descLb];
         [_descLb mas_makeConstraints:^(MASConstraintMaker *make) {
             make.top.mas_equalTo(self.iconView1.mas_bottom).mas_equalTo(10);

@@ -94,6 +94,8 @@ kRemoveCellSeparator
         [self.view addSubview:_tableView];
         _tableView.delegate = self;
         _tableView.dataSource = self;
+//去掉头部的section和脚步section的显示范围        
+        _tableView.contentInset=UIEdgeInsetsMake(-1, 0, -10, 0);
         [_tableView mas_makeConstraints:^(MASConstraintMaker *make) {
             make.edges.mas_equalTo(0);
         }];
@@ -105,30 +107,3 @@ kRemoveCellSeparator
 }
 
 @end
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -30,7 +30,7 @@
             make.left.mas_equalTo(self.iconView.mas_right).mas_equalTo(10);
         }];
         _introLb.numberOfLines = 0;
-        _introLb.font =[UIFont systemFontOfSize:14];
+        _introLb.font =[UIFont systemFontOfSize:16];
     }
     return _introLb;
 }
