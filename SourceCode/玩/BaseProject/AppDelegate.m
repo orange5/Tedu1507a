@@ -50,6 +50,8 @@
         _sideMenu.backgroundImage =[UIImage imageNamed:@"10979715_0800"];
         //可以让出现菜单时不显示状态栏
         _sideMenu.menuPrefersStatusBarHidden = YES;
+//不允许菜单栏到了边缘还可以继续缩小
+        _sideMenu.bouncesHorizontally = NO;
     }
     return _sideMenu;
 }

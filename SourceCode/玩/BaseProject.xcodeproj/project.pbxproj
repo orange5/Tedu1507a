@@ -16,6 +16,7 @@
 		382020121BEC36F20003DB02 /* TuWanListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 382020111BEC36F20003DB02 /* TuWanListCell.m */; };
 		382020151BEC415C0003DB02 /* TuWanImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 382020141BEC415C0003DB02 /* TuWanImageCell.m */; };
 		382391651BF0496200F2F52F /* XiMaCategoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 382391641BF0496200F2F52F /* XiMaCategoryCell.m */; };
+		382391681BF0726B00F2F52F /* XiMaCategoryViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 382391671BF0726B00F2F52F /* XiMaCategoryViewModel.m */; };
 		382A8FE91BEB066300A1874C /* DuoWanTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 382A8FE81BEB066300A1874C /* DuoWanTabBarController.m */; };
 		382A8FEC1BEB06C700A1874C /* TuWanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 382A8FEB1BEB06C700A1874C /* TuWanViewController.m */; };
 		382A8FEF1BEB06EB00A1874C /* MyInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 382A8FEE1BEB06EB00A1874C /* MyInfoViewController.m */; };
@@ -25,6 +26,11 @@
 		3844171A1BEF6076004D486F /* TuWanPicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 384417191BEF6076004D486F /* TuWanPicModel.m */; };
 		384417201BF0299C004D486F /* TuWanPicViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3844171F1BF0299C004D486F /* TuWanPicViewModel.m */; };
 		384417231BF02EA1004D486F /* TuWanPicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 384417221BF02EA1004D486F /* TuWanPicViewController.m */; };
+		3848D0891BF2CE010074ADED /* HeroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3848D0881BF2CE010074ADED /* HeroViewController.m */; };
+		3848D08C1BF2CE220074ADED /* BaiKeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3848D08B1BF2CE220074ADED /* BaiKeViewController.m */; };
+		3848D08F1BF2CE4E0074ADED /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3848D08E1BF2CE4E0074ADED /* SearchViewController.m */; };
+		3848D0921BF2D8D80074ADED /* SearchDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3848D0911BF2D8D80074ADED /* SearchDetailViewController.m */; };
+		3848D0951BF2E6B80074ADED /* ToolMenuViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3848D0941BF2E6B80074ADED /* ToolMenuViewModel.m */; };
 		3879FE811BDFA8E100A99990 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3879FE801BDFA8E100A99990 /* libsqlite3.0.tbd */; };
 		3885C8981BE8E88D009441EA /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3885C8971BE8E88D009441EA /* iCarousel.m */; };
 		3885C89D1BE8E8E8009441EA /* libMobClickLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3885C89A1BE8E8E8009441EA /* libMobClickLibrary.a */; };
@@ -104,6 +110,11 @@
 		38CBDDC41BEB4755008D5ADC /* TuWanModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 38CBDDAC1BEB4755008D5ADC /* TuWanModel.m */; };
 		38CBDDC51BEB4755008D5ADC /* AlbumModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 38CBDDAF1BEB4755008D5ADC /* AlbumModel.m */; };
 		38CBDDC61BEB4755008D5ADC /* RankingListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 38CBDDB11BEB4755008D5ADC /* RankingListModel.m */; };
+		38DC081E1BF194820077E792 /* MusicDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 38DC081D1BF194820077E792 /* MusicDetailCell.m */; };
+		38DC08221BF1C0820077E792 /* XiMaAlbumViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 38DC08211BF1C0820077E792 /* XiMaAlbumViewModel.m */; };
+		38DC08251BF1CB880077E792 /* MusicListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38DC08241BF1CB880077E792 /* MusicListViewController.m */; };
+		38DC08271BF1DF0D0077E792 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38DC08261BF1DF0D0077E792 /* AVFoundation.framework */; };
+		38DC082A1BF1DF4D0077E792 /* PlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38DC08291BF1DF4D0077E792 /* PlayView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -123,6 +134,8 @@
 		382020141BEC415C0003DB02 /* TuWanImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuWanImageCell.m; sourceTree = "<group>"; };
 		382391631BF0496200F2F52F /* XiMaCategoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XiMaCategoryCell.h; sourceTree = "<group>"; };
 		382391641BF0496200F2F52F /* XiMaCategoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XiMaCategoryCell.m; sourceTree = "<group>"; };
+		382391661BF0726B00F2F52F /* XiMaCategoryViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XiMaCategoryViewModel.h; sourceTree = "<group>"; };
+		382391671BF0726B00F2F52F /* XiMaCategoryViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XiMaCategoryViewModel.m; sourceTree = "<group>"; };
 		382A8FE71BEB066300A1874C /* DuoWanTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DuoWanTabBarController.h; sourceTree = "<group>"; };
 		382A8FE81BEB066300A1874C /* DuoWanTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DuoWanTabBarController.m; sourceTree = "<group>"; };
 		382A8FEA1BEB06C700A1874C /* TuWanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuWanViewController.h; sourceTree = "<group>"; };
@@ -141,6 +154,16 @@
 		3844171F1BF0299C004D486F /* TuWanPicViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuWanPicViewModel.m; sourceTree = "<group>"; };
 		384417211BF02EA1004D486F /* TuWanPicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuWanPicViewController.h; sourceTree = "<group>"; };
 		384417221BF02EA1004D486F /* TuWanPicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuWanPicViewController.m; sourceTree = "<group>"; };
+		3848D0871BF2CE010074ADED /* HeroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeroViewController.h; sourceTree = "<group>"; };
+		3848D0881BF2CE010074ADED /* HeroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeroViewController.m; sourceTree = "<group>"; };
+		3848D08A1BF2CE220074ADED /* BaiKeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaiKeViewController.h; sourceTree = "<group>"; };
+		3848D08B1BF2CE220074ADED /* BaiKeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaiKeViewController.m; sourceTree = "<group>"; };
+		3848D08D1BF2CE4E0074ADED /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		3848D08E1BF2CE4E0074ADED /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		3848D0901BF2D8D80074ADED /* SearchDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchDetailViewController.h; sourceTree = "<group>"; };
+		3848D0911BF2D8D80074ADED /* SearchDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchDetailViewController.m; sourceTree = "<group>"; };
+		3848D0931BF2E6B80074ADED /* ToolMenuViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToolMenuViewModel.h; sourceTree = "<group>"; };
+		3848D0941BF2E6B80074ADED /* ToolMenuViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToolMenuViewModel.m; sourceTree = "<group>"; };
 		3879FE801BDFA8E100A99990 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		3879FE9D1BDFDD2400A99990 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
 		3885C8961BE8E88D009441EA /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
@@ -280,6 +303,15 @@
 		38CBDDB01BEB4755008D5ADC /* RankingListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RankingListModel.h; sourceTree = "<group>"; };
 		38CBDDB11BEB4755008D5ADC /* RankingListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RankingListModel.m; sourceTree = "<group>"; };
 		38CBDDB21BEB4755008D5ADC /* XiMaLaYaModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XiMaLaYaModel.h; sourceTree = "<group>"; };
+		38DC081C1BF194820077E792 /* MusicDetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicDetailCell.h; sourceTree = "<group>"; };
+		38DC081D1BF194820077E792 /* MusicDetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicDetailCell.m; sourceTree = "<group>"; };
+		38DC08201BF1C0820077E792 /* XiMaAlbumViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XiMaAlbumViewModel.h; sourceTree = "<group>"; };
+		38DC08211BF1C0820077E792 /* XiMaAlbumViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XiMaAlbumViewModel.m; sourceTree = "<group>"; };
+		38DC08231BF1CB880077E792 /* MusicListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicListViewController.h; sourceTree = "<group>"; };
+		38DC08241BF1CB880077E792 /* MusicListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicListViewController.m; sourceTree = "<group>"; };
+		38DC08261BF1DF0D0077E792 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		38DC08281BF1DF4D0077E792 /* PlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayView.h; sourceTree = "<group>"; };
+		38DC08291BF1DF4D0077E792 /* PlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayView.m; sourceTree = "<group>"; };
 		4329DABFE5AD654FE71597C9 /* Pods-BaseProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BaseProject/Pods-BaseProject.debug.xcconfig"; sourceTree = "<group>"; };
 		5EAAD623A23724C816F8DC02 /* libPods-BaseProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BaseProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD4F0750B5DAAA87BA236B31 /* Pods-BaseProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-BaseProject/Pods-BaseProject.release.xcconfig"; sourceTree = "<group>"; };
@@ -290,6 +322,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38DC08271BF1DF0D0077E792 /* AVFoundation.framework in Frameworks */,
 				3885C90B1BE8EA70009441EA /* libz.tbd in Frameworks */,
 				3885C9091BE8EA6A009441EA /* libstdc++.tbd in Frameworks */,
 				3885C9071BE8EA62009441EA /* CoreTelephony.framework in Frameworks */,
@@ -332,6 +365,14 @@
 			children = (
 				382A8FE71BEB066300A1874C /* DuoWanTabBarController.h */,
 				382A8FE81BEB066300A1874C /* DuoWanTabBarController.m */,
+				3848D0871BF2CE010074ADED /* HeroViewController.h */,
+				3848D0881BF2CE010074ADED /* HeroViewController.m */,
+				3848D08A1BF2CE220074ADED /* BaiKeViewController.h */,
+				3848D08B1BF2CE220074ADED /* BaiKeViewController.m */,
+				3848D08D1BF2CE4E0074ADED /* SearchViewController.h */,
+				3848D08E1BF2CE4E0074ADED /* SearchViewController.m */,
+				3848D0901BF2D8D80074ADED /* SearchDetailViewController.h */,
+				3848D0911BF2D8D80074ADED /* SearchDetailViewController.m */,
 			);
 			path = "多玩盒子";
 			sourceTree = "<group>";
@@ -365,6 +406,8 @@
 			children = (
 				382A8FF01BEB071500A1874C /* RankListViewController.h */,
 				382A8FF11BEB071500A1874C /* RankListViewController.m */,
+				38DC08231BF1CB880077E792 /* MusicListViewController.h */,
+				38DC08241BF1CB880077E792 /* MusicListViewController.m */,
 			);
 			path = "喜马拉雅";
 			sourceTree = "<group>";
@@ -372,6 +415,8 @@
 		382A8FE31BEB05AD00A1874C /* 多玩盒子 */ = {
 			isa = PBXGroup;
 			children = (
+				3848D0931BF2E6B80074ADED /* ToolMenuViewModel.h */,
+				3848D0941BF2E6B80074ADED /* ToolMenuViewModel.m */,
 			);
 			path = "多玩盒子";
 			sourceTree = "<group>";
@@ -397,6 +442,10 @@
 		382A8FE61BEB05AD00A1874C /* 喜马拉雅 */ = {
 			isa = PBXGroup;
 			children = (
+				382391661BF0726B00F2F52F /* XiMaCategoryViewModel.h */,
+				382391671BF0726B00F2F52F /* XiMaCategoryViewModel.m */,
+				38DC08201BF1C0820077E792 /* XiMaAlbumViewModel.h */,
+				38DC08211BF1C0820077E792 /* XiMaAlbumViewModel.m */,
 			);
 			path = "喜马拉雅";
 			sourceTree = "<group>";
@@ -665,6 +714,10 @@
 				382020141BEC415C0003DB02 /* TuWanImageCell.m */,
 				382391631BF0496200F2F52F /* XiMaCategoryCell.h */,
 				382391641BF0496200F2F52F /* XiMaCategoryCell.m */,
+				38DC081C1BF194820077E792 /* MusicDetailCell.h */,
+				38DC081D1BF194820077E792 /* MusicDetailCell.m */,
+				38DC08281BF1DF4D0077E792 /* PlayView.h */,
+				38DC08291BF1DF4D0077E792 /* PlayView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -774,6 +827,7 @@
 		FA3445AEA3874C1D4FE61EAF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				38DC08261BF1DF0D0077E792 /* AVFoundation.framework */,
 				3885C90A1BE8EA70009441EA /* libz.tbd */,
 				3885C9081BE8EA6A009441EA /* libstdc++.tbd */,
 				3885C9061BE8EA62009441EA /* CoreTelephony.framework */,
@@ -936,26 +990,34 @@
 			buildActionMask = 2147483647;
 			files = (
 				3886C0BE1BD74AFE0014E661 /* BaseNetManager.m in Sources */,
+				382391681BF0726B00F2F52F /* XiMaCategoryViewModel.m in Sources */,
 				38CBDDBA1BEB4755008D5ADC /* HeroGiftModel.m in Sources */,
 				3804CE541BD758F10046C8C8 /* NSString+QRCode.m in Sources */,
 				38CBDDB41BEB4755008D5ADC /* BestGroupModel.m in Sources */,
 				382A8FEF1BEB06EB00A1874C /* MyInfoViewController.m in Sources */,
+				38DC081E1BF194820077E792 /* MusicDetailCell.m in Sources */,
 				38CBDDBE1BEB4755008D5ADC /* ItemDetailModel.m in Sources */,
 				3885C8FA1BE8E96A009441EA /* PSCollectionViewCell.m in Sources */,
+				3848D0921BF2D8D80074ADED /* SearchDetailViewController.m in Sources */,
 				382A8FF21BEB071500A1874C /* RankListViewController.m in Sources */,
+				3848D08F1BF2CE4E0074ADED /* SearchViewController.m in Sources */,
 				3844171A1BEF6076004D486F /* TuWanPicModel.m in Sources */,
 				38CBDDB91BEB4755008D5ADC /* HeroDetailModel.m in Sources */,
 				3804CE531BD758F10046C8C8 /* NSString+PJR.m in Sources */,
 				3820200F1BEC36710003DB02 /* TuWanListViewController.m in Sources */,
 				38CBDD851BEB474C008D5ADC /* XiMaNetManager.m in Sources */,
 				3885C8F91BE8E96A009441EA /* PSCollectionView.m in Sources */,
+				38DC082A1BF1DF4D0077E792 /* PlayView.m in Sources */,
 				38CBDDC31BEB4755008D5ADC /* ZBItemModel.m in Sources */,
 				38CBDDBC1BEB4755008D5ADC /* HeroVideoModel.m in Sources */,
+				3848D08C1BF2CE220074ADED /* BaiKeViewController.m in Sources */,
+				3848D0891BF2CE010074ADED /* HeroViewController.m in Sources */,
 				38CBDDC01BEB4755008D5ADC /* SumAbilityModel.m in Sources */,
 				38CBDDBF1BEB4755008D5ADC /* RuneModel.m in Sources */,
 				38CBDDB71BEB4755008D5ADC /* HeroChangeModel.m in Sources */,
 				3886C09B1BD748830014E661 /* AppDelegate.m in Sources */,
 				384417201BF0299C004D486F /* TuWanPicViewModel.m in Sources */,
+				3848D0951BF2E6B80074ADED /* ToolMenuViewModel.m in Sources */,
 				3885C8981BE8E88D009441EA /* iCarousel.m in Sources */,
 				38CBDDC21BEB4755008D5ADC /* ZBCategoryModel.m in Sources */,
 				384417171BEF5EE8004D486F /* TuWanVideoModel.m in Sources */,
@@ -980,10 +1042,12 @@
 				3885C8FB1BE8E96A009441EA /* README.md in Sources */,
 				38CBDDC11BEB4755008D5ADC /* ToolMenuModel.m in Sources */,
 				38BEAC221BEC95B800D567D7 /* TuWanHtmlViewController.m in Sources */,
+				38DC08251BF1CB880077E792 /* MusicListViewController.m in Sources */,
 				38CBDDB61BEB4755008D5ADC /* GiftModel.m in Sources */,
 				3886C0C11BD74B090014E661 /* BaseModel.m in Sources */,
 				382A8FEC1BEB06C700A1874C /* TuWanViewController.m in Sources */,
 				3886C0981BD748830014E661 /* main.m in Sources */,
+				38DC08221BF1C0820077E792 /* XiMaAlbumViewModel.m in Sources */,
 				3804CE521BD758F10046C8C8 /* NSObject+Common.m in Sources */,
 				38CBDDBB1BEB4755008D5ADC /* HeroSkinModel.m in Sources */,
 				38CBDDB51BEB4755008D5ADC /* FreeHeroModel.m in Sources */,
