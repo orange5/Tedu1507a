@@ -9,6 +9,7 @@
 #import "BestGroupViewController.h"
 #import "BestGroupViewModel.h"
 #import "BestGroupCell.h"
+#import "BestGroupDetailViewController.h"
 
 @interface BestGroupViewController ()<UITableViewDelegate, UITableViewDataSource>
 @property(nonatomic,strong) UITableView *tableView;
@@ -41,7 +42,8 @@ kRemoveCellSeparator
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-    
+    BestGroupDetailViewController *vc=[[BestGroupDetailViewController alloc] initWithTitle:[self.bestGroupVM titleForRow:indexPath.row] desc:[self.bestGroupVM descForRow:indexPath.row] icons:[self.bestGroupVM iconURLsForRow:indexPath.row] decs:[self.bestGroupVM descsForRow:indexPath.row]];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     BestGroupCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell"];
