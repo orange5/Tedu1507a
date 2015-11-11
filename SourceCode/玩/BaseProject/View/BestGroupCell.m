@@ -98,7 +98,8 @@
         [self.contentView addSubview:_descLb];
         [_descLb mas_makeConstraints:^(MASConstraintMaker *make) {
             make.top.mas_equalTo(self.iconView1.mas_bottom).mas_equalTo(10);
-            make.bottom.mas_equalTo(-10);
+            make.bottom.right.mas_equalTo(-10);
+            make.left.mas_equalTo(10);
         }];
     }
     return _descLb;

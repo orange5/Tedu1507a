@@ -35,11 +35,22 @@
     return self.bestGroupVM.rowNumber;
 }
 kRemoveCellSeparator
+
+- (CGFloat)tableView:(UITableView *)tableView estimatedHeightForRowAtIndexPath:(NSIndexPath *)indexPath{
+    return UITableViewAutomaticDimension;
+}
+
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     
 }
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     BestGroupCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell"];
+    cell.titleLb.text = [self.bestGroupVM titleForRow:indexPath.row];
+    cell.descLb.text =[self.bestGroupVM descForRow:indexPath.row];
+    NSArray *arr = @[cell.iconView1, cell.iconView2,cell.iconView3,cell.iconView4,cell.iconView5];
+    [arr enumerateObjectsUsingBlock:^(TRImageView * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+        [obj.imageView setImageWithURL:[self.bestGroupVM iconURLsForRow:indexPath.row][idx] placeholderImage:[UIImage imageNamed:@"cell_bg_noData_1"]];
+    }];
     
     return cell;
 }
