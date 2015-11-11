@@ -9,6 +9,7 @@
 #import "BaiKeViewController.h"
 #import "TRImageView.h"
 #import "ToolMenuViewModel.h"
+#import "TuWanHtmlViewController.h"
 
 /** 创建自定义cell、图+题目 BaiKeCell*/
 @interface  BaiKeCell: UITableViewCell
@@ -95,7 +96,30 @@
 }
 
 /** 实现tableView的协议、去分割线、去选择效果 */
+#pragma mark - UITableView
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+    return self.toolVM.rowNumber;
+}
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+    BaiKeCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell"];
+    [cell.iconView.imageView setImageWithURL:[self.toolVM iconURLForRow:indexPath.row] placeholderImage:[UIImage imageNamed:@"cell_bg_noData_1"]];
+    cell.nameLb.text = [self.toolVM titleForRow:indexPath.row];
+    return cell;
+}
+kRemoveCellSeparator
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    if ([self.toolVM itemTypeForRow:indexPath.row] == ToolMenuItemTypeWeb) {
+        TuWanHtmlViewController *vc=[[TuWanHtmlViewController alloc] initWithURL:[self.toolVM webURLForRow:indexPath.row]];
+        vc.hidesBottomBarWhenPushed = YES;
+        [self.navigationController pushViewController:vc animated:YES];
+    }
+}
 
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
 
 - (id)init{
     if (self=[super init]) {
@@ -110,25 +134,7 @@
     [self.tableView.header beginRefreshing];
 }
 
-#pragma mark - UITableView
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
-    return self.toolVM.rowNumber;
-}
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
-    BaiKeCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell"];
-    [cell.iconView.imageView setImageWithURL:[self.toolVM iconURLForRow:indexPath.row] placeholderImage:[UIImage imageNamed:@"cell_bg_noData_1"]];
-    cell.nameLb.text = [self.toolVM titleForRow:indexPath.row];
-    return cell;
-}
-kRemoveCellSeparator
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-    [tableView deselectRowAtIndexPath:indexPath animated:YES];
-}
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 /*
 #pragma mark - Navigation
