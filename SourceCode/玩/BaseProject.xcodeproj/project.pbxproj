@@ -118,6 +118,7 @@
 		38F2196A1BF3165400F11009 /* BestGroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F219691BF3165400F11009 /* BestGroupViewController.m */; };
 		38F2196D1BF318E300F11009 /* BestGroupDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F2196C1BF318E300F11009 /* BestGroupDetailViewController.m */; };
 		38F219701BF31EA400F11009 /* BestGroupViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F2196F1BF31EA400F11009 /* BestGroupViewModel.m */; };
+		38F219731BF3240400F11009 /* BestGroupCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F219721BF3240400F11009 /* BestGroupCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -321,6 +322,8 @@
 		38F2196C1BF318E300F11009 /* BestGroupDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BestGroupDetailViewController.m; sourceTree = "<group>"; };
 		38F2196E1BF31EA400F11009 /* BestGroupViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BestGroupViewModel.h; sourceTree = "<group>"; };
 		38F2196F1BF31EA400F11009 /* BestGroupViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BestGroupViewModel.m; sourceTree = "<group>"; };
+		38F219711BF3240400F11009 /* BestGroupCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BestGroupCell.h; sourceTree = "<group>"; };
+		38F219721BF3240400F11009 /* BestGroupCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BestGroupCell.m; sourceTree = "<group>"; };
 		4329DABFE5AD654FE71597C9 /* Pods-BaseProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BaseProject/Pods-BaseProject.debug.xcconfig"; sourceTree = "<group>"; };
 		5EAAD623A23724C816F8DC02 /* libPods-BaseProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BaseProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD4F0750B5DAAA87BA236B31 /* Pods-BaseProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-BaseProject/Pods-BaseProject.release.xcconfig"; sourceTree = "<group>"; };
@@ -733,6 +736,8 @@
 				38DC081D1BF194820077E792 /* MusicDetailCell.m */,
 				38DC08281BF1DF4D0077E792 /* PlayView.h */,
 				38DC08291BF1DF4D0077E792 /* PlayView.m */,
+				38F219711BF3240400F11009 /* BestGroupCell.h */,
+				38F219721BF3240400F11009 /* BestGroupCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1066,6 +1071,7 @@
 				382A8FEC1BEB06C700A1874C /* TuWanViewController.m in Sources */,
 				3886C0981BD748830014E661 /* main.m in Sources */,
 				38DC08221BF1C0820077E792 /* XiMaAlbumViewModel.m in Sources */,
+				38F219731BF3240400F11009 /* BestGroupCell.m in Sources */,
 				3804CE521BD758F10046C8C8 /* NSObject+Common.m in Sources */,
 				38CBDDBB1BEB4755008D5ADC /* HeroSkinModel.m in Sources */,
 				38CBDDB51BEB4755008D5ADC /* FreeHeroModel.m in Sources */,
