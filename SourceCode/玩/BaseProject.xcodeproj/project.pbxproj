@@ -117,6 +117,7 @@
 		38DC082A1BF1DF4D0077E792 /* PlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38DC08291BF1DF4D0077E792 /* PlayView.m */; };
 		38F2196A1BF3165400F11009 /* BestGroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F219691BF3165400F11009 /* BestGroupViewController.m */; };
 		38F2196D1BF318E300F11009 /* BestGroupDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F2196C1BF318E300F11009 /* BestGroupDetailViewController.m */; };
+		38F219701BF31EA400F11009 /* BestGroupViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F2196F1BF31EA400F11009 /* BestGroupViewModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -318,6 +319,8 @@
 		38F219691BF3165400F11009 /* BestGroupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BestGroupViewController.m; sourceTree = "<group>"; };
 		38F2196B1BF318E300F11009 /* BestGroupDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BestGroupDetailViewController.h; sourceTree = "<group>"; };
 		38F2196C1BF318E300F11009 /* BestGroupDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BestGroupDetailViewController.m; sourceTree = "<group>"; };
+		38F2196E1BF31EA400F11009 /* BestGroupViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BestGroupViewModel.h; sourceTree = "<group>"; };
+		38F2196F1BF31EA400F11009 /* BestGroupViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BestGroupViewModel.m; sourceTree = "<group>"; };
 		4329DABFE5AD654FE71597C9 /* Pods-BaseProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BaseProject/Pods-BaseProject.debug.xcconfig"; sourceTree = "<group>"; };
 		5EAAD623A23724C816F8DC02 /* libPods-BaseProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BaseProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD4F0750B5DAAA87BA236B31 /* Pods-BaseProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-BaseProject/Pods-BaseProject.release.xcconfig"; sourceTree = "<group>"; };
@@ -427,6 +430,8 @@
 			children = (
 				3848D0931BF2E6B80074ADED /* ToolMenuViewModel.h */,
 				3848D0941BF2E6B80074ADED /* ToolMenuViewModel.m */,
+				38F2196E1BF31EA400F11009 /* BestGroupViewModel.h */,
+				38F2196F1BF31EA400F11009 /* BestGroupViewModel.m */,
 			);
 			path = "多玩盒子";
 			sourceTree = "<group>";
@@ -1003,6 +1008,7 @@
 				382391681BF0726B00F2F52F /* XiMaCategoryViewModel.m in Sources */,
 				38CBDDBA1BEB4755008D5ADC /* HeroGiftModel.m in Sources */,
 				3804CE541BD758F10046C8C8 /* NSString+QRCode.m in Sources */,
+				38F219701BF31EA400F11009 /* BestGroupViewModel.m in Sources */,
 				38CBDDB41BEB4755008D5ADC /* BestGroupModel.m in Sources */,
 				382A8FEF1BEB06EB00A1874C /* MyInfoViewController.m in Sources */,
 				38DC081E1BF194820077E792 /* MusicDetailCell.m in Sources */,
