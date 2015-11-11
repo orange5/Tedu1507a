@@ -13,12 +13,16 @@
 @end
 
 @implementation BaiKeViewController
-
+- (id)init{
+    if (self=[super init]) {
+        self.title=@"游戏百科";
+    }
+    return self;
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     [Factory addMenuItemToVC:self];
-    self.title=@"游戏百科";
 }
 
 - (void)didReceiveMemoryWarning {

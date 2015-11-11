@@ -29,6 +29,7 @@
 		3848D0891BF2CE010074ADED /* HeroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3848D0881BF2CE010074ADED /* HeroViewController.m */; };
 		3848D08C1BF2CE220074ADED /* BaiKeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3848D08B1BF2CE220074ADED /* BaiKeViewController.m */; };
 		3848D08F1BF2CE4E0074ADED /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3848D08E1BF2CE4E0074ADED /* SearchViewController.m */; };
+		3848D0921BF2D8D80074ADED /* SearchDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3848D0911BF2D8D80074ADED /* SearchDetailViewController.m */; };
 		3879FE811BDFA8E100A99990 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3879FE801BDFA8E100A99990 /* libsqlite3.0.tbd */; };
 		3885C8981BE8E88D009441EA /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3885C8971BE8E88D009441EA /* iCarousel.m */; };
 		3885C89D1BE8E8E8009441EA /* libMobClickLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3885C89A1BE8E8E8009441EA /* libMobClickLibrary.a */; };
@@ -158,6 +159,8 @@
 		3848D08B1BF2CE220074ADED /* BaiKeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaiKeViewController.m; sourceTree = "<group>"; };
 		3848D08D1BF2CE4E0074ADED /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
 		3848D08E1BF2CE4E0074ADED /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		3848D0901BF2D8D80074ADED /* SearchDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchDetailViewController.h; sourceTree = "<group>"; };
+		3848D0911BF2D8D80074ADED /* SearchDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchDetailViewController.m; sourceTree = "<group>"; };
 		3879FE801BDFA8E100A99990 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		3879FE9D1BDFDD2400A99990 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
 		3885C8961BE8E88D009441EA /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
@@ -365,6 +368,8 @@
 				3848D08B1BF2CE220074ADED /* BaiKeViewController.m */,
 				3848D08D1BF2CE4E0074ADED /* SearchViewController.h */,
 				3848D08E1BF2CE4E0074ADED /* SearchViewController.m */,
+				3848D0901BF2D8D80074ADED /* SearchDetailViewController.h */,
+				3848D0911BF2D8D80074ADED /* SearchDetailViewController.m */,
 			);
 			path = "多玩盒子";
 			sourceTree = "<group>";
@@ -988,6 +993,7 @@
 				38DC081E1BF194820077E792 /* MusicDetailCell.m in Sources */,
 				38CBDDBE1BEB4755008D5ADC /* ItemDetailModel.m in Sources */,
 				3885C8FA1BE8E96A009441EA /* PSCollectionViewCell.m in Sources */,
+				3848D0921BF2D8D80074ADED /* SearchDetailViewController.m in Sources */,
 				382A8FF21BEB071500A1874C /* RankListViewController.m in Sources */,
 				3848D08F1BF2CE4E0074ADED /* SearchViewController.m in Sources */,
 				3844171A1BEF6076004D486F /* TuWanPicModel.m in Sources */,

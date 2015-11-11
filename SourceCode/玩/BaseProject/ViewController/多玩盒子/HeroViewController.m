@@ -11,11 +11,16 @@
 @interface HeroViewController ()
 @end
 @implementation HeroViewController
+- (id)init{
+    if (self=[super init]) {
+        self.title=@"英雄";
+    }
+    return self;
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     [Factory addMenuItemToVC:self];
-    self.title=@"英雄";
 }
 
 - (void)didReceiveMemoryWarning {
