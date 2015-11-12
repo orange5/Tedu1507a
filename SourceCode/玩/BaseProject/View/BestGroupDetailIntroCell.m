@@ -1,17 +1,16 @@
 //
-//  BestGroupCell.m
+//  BestGroupDetailIntroCell.m
 //  BaseProject
 //
 //  Created by jiyingxin on 15/11/11.
 //  Copyright © 2015年 Tarena. All rights reserved.
 //
 
-#import "BestGroupCell.h"
+#import "BestGroupDetailIntroCell.h"
+
+@implementation BestGroupDetailIntroCell
 
 #define kIconSpace  (kWindowW - 52 * 5)/6
-
-@implementation BestGroupCell
-
 - (TRImageView *)iconView1 {
     if(_iconView1 == nil) {
         _iconView1 = [[TRImageView alloc] init];
@@ -81,6 +80,7 @@
     if(_titleLb == nil) {
         _titleLb = [[UILabel alloc] init];
         [self.contentView addSubview:_titleLb];
+        _titleLb.numberOfLines = 0;
         [_titleLb mas_makeConstraints:^(MASConstraintMaker *make) {
             make.left.top.mas_equalTo(10);
             make.right.mas_equalTo(-10);
@@ -92,24 +92,21 @@
 - (UILabel *)descLb {
     if(_descLb == nil) {
         _descLb = [[UILabel alloc] init];
-        _descLb.textColor=[UIColor lightGrayColor];
-        _descLb.numberOfLines = 2;
-        _descLb.font=[UIFont systemFontOfSize:14];
+        _descLb.font=[UIFont systemFontOfSize:16];
         [self.contentView addSubview:_descLb];
         [_descLb mas_makeConstraints:^(MASConstraintMaker *make) {
             make.top.mas_equalTo(self.iconView1.mas_bottom).mas_equalTo(10);
             make.bottom.right.mas_equalTo(-10);
             make.left.mas_equalTo(10);
         }];
+        _descLb.numberOfLines = 0;
     }
     return _descLb;
 }
 
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier{
     if (self = [super initWithStyle:style reuseIdentifier:reuseIdentifier]) {
-        UIView *yelloView=[UIView new];
-        yelloView.backgroundColor=kRGBColor(254, 249, 236);
-        self.selectedBackgroundView=yelloView;
+        self.selectionStyle = UITableViewCellSelectionStyleNone;
     }
     return self;
 }
